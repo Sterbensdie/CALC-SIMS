@@ -1,0 +1,17 @@
+{
+  "name": "calc-sims",
+  "version": "1.0.0",
+  "description": "Calculus Simulator App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win portable"
+  },
+  "build": {
+    "appId": "com.calcsims.app",
+    "productName": "Calc_Sims",
+    "win": {
+      "target": "portable"
+    }
+  }
+}
